@@ -16,6 +16,7 @@
             android:orientation="vertical" >
 
             <RelativeLayout
+                android:onClick="categorySelection"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" >
 
@@ -25,6 +26,7 @@
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/imageView1"
                     android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
                     android:text="Blu-Ray"
                     android:textSize="22sp"
                     android:textColor="#FFFFFF"
@@ -32,8 +34,9 @@
 
                 <ImageView
                     android:id="@+id/imageView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds = "true"
                     android:src="@drawable/blueray" />
 
             </RelativeLayout>
@@ -42,6 +45,7 @@
     </ScrollView>
 
     <RelativeLayout
+        android:id="@+id/dynamicLayout"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:background="@android:color/white" >
@@ -50,10 +54,10 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="Swype to the right to show categories"
             android:textSize="25sp" />
+
     </RelativeLayout>
 
 </com.agimind.widget.SlideHolder>
