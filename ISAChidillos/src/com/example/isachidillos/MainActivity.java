@@ -1,18 +1,23 @@
 package com.example.isachidillos;
 
-import android.os.Bundle;
+import java.util.ArrayList;
+
 import android.app.Activity;
 import android.content.Context;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
-import com.agimind.widget.SlideHolder;
-import products.productObject;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.ExpandableListView;
 import android.widget.RelativeLayout;
+import android.widget.ExpandableListAdapter;
+
+
 
 public class MainActivity extends Activity {
 
+	ArrayList<String> manu = new ArrayList<String>();
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -32,9 +37,11 @@ public class MainActivity extends Activity {
 		LayoutInflater layoutInflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		dynamicLayout.removeAllViews();
 		View newContent = null;
-		newContent = layoutInflater.inflate(R.layout.compare_selection,null);	
+		newContent = layoutInflater.inflate(R.layout.product_selection,null);	
 		//newContent.setId(1);
 		dynamicLayout.addView(newContent);
 		
 	}
+	
+
 }
