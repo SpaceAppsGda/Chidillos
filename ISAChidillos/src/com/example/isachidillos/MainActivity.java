@@ -162,6 +162,7 @@ public class MainActivity extends Activity {
 		//Calculate consumption total data 
 		this.product.monthlyCost = costPerKWH *((30*this.product.normalUseTime*this.product.normalConsumption)+(30*(24-this.product.normalUseTime)*this.product.standByConsumption));
 		this.product.bimestralCost = costPerKWH *((60*this.product.normalUseTime*this.product.normalConsumption)+(60*(24-this.product.normalUseTime)*this.product.standByConsumption));
+		this.product.semestralCost = costPerKWH *((180*this.product.normalUseTime*this.product.normalConsumption)+(180*(24-this.product.normalUseTime)*this.product.standByConsumption));
 		this.product.anualCost = costPerKWH *((365*this.product.normalUseTime*this.product.normalConsumption)+(365*(24-this.product.normalUseTime)*this.product.standByConsumption));
 		
 		//change dynamic content to Results view
@@ -178,9 +179,9 @@ public class MainActivity extends Activity {
 		TextView modl = (TextView) this.findViewById(R.id.resultModel); //ResultsView
 		modl.setText(currentModel);
 		TextView nc = (TextView) this.findViewById(R.id.productNormalConsumption); //ResultsView
-		nc.setText("Normal Use Consumtion: "+String.valueOf(this.product.normalConsumption)+" W");
+		nc.setText("Normal: "+String.valueOf(this.product.normalConsumption)+" W");
 		TextView sc = (TextView) this.findViewById(R.id.productStandByConsumption); //ResultsView
-		sc.setText("Stand By Consumption: "+String.valueOf(this.product.standByConsumption)+" W");
+		sc.setText("Stand By: "+String.valueOf(this.product.standByConsumption)+" W");
 		
 		//Calculated Results
 		TextView results = (TextView) this.findViewById(R.id.cm); //ResultsView
