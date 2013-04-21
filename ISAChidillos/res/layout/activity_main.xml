@@ -27,7 +27,7 @@
                     android:id="@+id/BluRay"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -36,7 +36,7 @@
 
                 <ImageView
                     android:src="@drawable/bluray"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -55,7 +55,7 @@
                     android:text="PC"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -64,7 +64,7 @@
 
                 <ImageView
                     android:src="@drawable/computadoras"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -83,7 +83,7 @@
                     android:text="DVR"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -92,7 +92,7 @@
 
                 <ImageView
                     android:src="@drawable/digitaltvrecorder"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -111,7 +111,7 @@
                     android:text="Game Consoles"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -120,7 +120,7 @@
 
                 <ImageView
                     android:src="@drawable/game"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -139,7 +139,7 @@
                     android:text="Media Player"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -148,7 +148,7 @@
 
                 <ImageView
                     android:src="@drawable/mediaplayers"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -167,7 +167,7 @@
                     android:text="Monitor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -176,7 +176,7 @@
 
                 <ImageView
                     android:src="@drawable/monitor"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -195,7 +195,7 @@
                     android:text="NAS"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -204,7 +204,7 @@
 
                 <ImageView
                     android:src="@drawable/nas"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -223,7 +223,7 @@
                     android:text="Printer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -232,7 +232,7 @@
 
                 <ImageView
                     android:src="@drawable/impresoras"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -251,7 +251,7 @@
                     android:text="Stereo Amplifier"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -260,7 +260,7 @@
 
                 <ImageView
                     android:src="@drawable/amplifier"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -279,7 +279,7 @@
                     android:text="Switches"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -288,7 +288,7 @@
 
                 <ImageView
                     android:src="@drawable/switch_"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -307,7 +307,7 @@
                     android:text="WiFi Router"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -316,7 +316,7 @@
 
                 <ImageView
                     android:src="@drawable/wifi"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -335,7 +335,7 @@
                     android:text="CRT TV"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -344,7 +344,7 @@
 
                 <ImageView
                     android:src="@drawable/tele"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -363,7 +363,7 @@
                     android:text="LCD TV"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -372,7 +372,7 @@
 
                 <ImageView
                     android:src="@drawable/tele"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -391,7 +391,7 @@
                     android:text="LED TV"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -400,7 +400,7 @@
 
                 <ImageView
                     android:src="@drawable/tele"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"
@@ -419,7 +419,7 @@
                     android:text="Plasma TV"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_toRightOf="@+id/currentCategoryImage"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="15dp"
                     android:textSize="22sp"
@@ -428,7 +428,7 @@
 
                 <ImageView
                     android:src="@drawable/tele"
-                    android:id="@+id/imageView1"
+                    android:id="@+id/currentCategoryImage"
                     android:layout_width="52dp"
                     android:layout_height="52dp"
                     android:adjustViewBounds="true"

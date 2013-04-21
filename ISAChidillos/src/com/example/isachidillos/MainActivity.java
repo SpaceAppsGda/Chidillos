@@ -122,5 +122,15 @@ public class MainActivity extends Activity {
 		currentModel = this.models.get(modelIndex);
 		setModelText();
 	}
+	
+	public void okProductButtonClick(View v)
+	{
+		RelativeLayout dynamicLayout = (RelativeLayout) this.findViewById(R.id.dynamicLayout);
+		LayoutInflater layoutInflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		dynamicLayout.removeAllViews();
+		View newContent = null;
+		newContent = layoutInflater.inflate(R.layout.results,null);	
+		
+	}
 
 }
