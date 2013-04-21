@@ -104,11 +104,6 @@
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-<<<<<<< HEAD
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
-=======
->>>>>>> is even latter but we have 8 more hours :D :D :D wiiiiiiii
                 android:text="Large Text"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 

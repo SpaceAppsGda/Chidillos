@@ -2,13 +2,8 @@ package com.example.isachidillos;
 
 import java.util.ArrayList;
 
-<<<<<<< HEAD
-=======
 import com.agimind.widget.SlideHolder;
-
 import products.productObject;
-
->>>>>>> is even latter but we have 8 more hours :D :D :D wiiiiiiii
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
@@ -18,14 +13,12 @@ import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.RelativeLayout;
 import android.widget.ExpandableListAdapter;
+import android.widget.TextView;
 
 
 
 public class MainActivity extends Activity {
 
-<<<<<<< HEAD
-	ArrayList<String> manu = new ArrayList<String>();
-=======
 	public ArrayList<String> manufacturers = new ArrayList<String>();
 	public int manufacturerIndex=0;
 	public ArrayList<String> models = new ArrayList<String>();
@@ -33,21 +26,16 @@ public class MainActivity extends Activity {
 	public int currentCategory = 0;
 	public String currentManufacturer="";
 	public String currentModel = "";
->>>>>>> is even latter but we have 8 more hours :D :D :D wiiiiiiii
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-<<<<<<< HEAD
-=======
 		productObject product = new productObject();
 		this.manufacturers.add("Apple");
 		this.manufacturers.add("Dell");
 		this.models.add("T1");
 		this.models.add("T2");
-		
->>>>>>> is even latter but we have 8 more hours :D :D :D wiiiiiiii
 	}
 
 	@Override
@@ -59,15 +47,12 @@ public class MainActivity extends Activity {
 
 	public void categorySelection(View v)
 	{
-<<<<<<< HEAD
-=======
 		SlideHolder holder = (SlideHolder) this.findViewById(R.id.slideHolder);
 		holder.completeClosing();
 				
 		//Highlight selection
 		v.setBackgroundColor(0x89AB2B);
 		//Change layout to product selection layout
->>>>>>> is even latter but we have 8 more hours :D :D :D wiiiiiiii
 		RelativeLayout dynamicLayout = (RelativeLayout) this.findViewById(R.id.dynamicLayout);
 		LayoutInflater layoutInflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		dynamicLayout.removeAllViews();
@@ -75,9 +60,7 @@ public class MainActivity extends Activity {
 		newContent = layoutInflater.inflate(R.layout.product_selection,null);	
 		//newContent.setId(1);
 		dynamicLayout.addView(newContent);
-<<<<<<< HEAD
-		
-=======
+
 		//Set the current category Id to query http://www.tpcdb.com/list.php?type= categoryid
 		currentCategory = Integer.parseInt(v.getTag().toString());
 		setManufacturerText();
@@ -120,7 +103,6 @@ public class MainActivity extends Activity {
 	{
 		TextView text = (TextView) this.findViewById(R.id.modelText);
 		text.setText(currentModel);
->>>>>>> is even latter but we have 8 more hours :D :D :D wiiiiiiii
 	}
 	
 	public void incrementCurrentModel(View v)
