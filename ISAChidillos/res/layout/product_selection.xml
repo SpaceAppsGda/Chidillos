@@ -2,15 +2,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:background="#A4B765"
+    android:orientation="vertical"
+    android:paddingBottom="10dp" >
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="fill_parent"
+        android:background="#A4B765" >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#A4B765"
             android:orientation="vertical" >
 
             <LinearLayout
@@ -22,14 +26,20 @@
                     android:id="@+id/model"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
                     android:text="Manufacture:"
+                    android:textStyle="bold"
                     android:textSize="30sp" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" >
 
                     <Button
+                        android:background="#374426"
+                        android:textColor="#FFF"
                         android:id="@+id/manufacturer_decrement"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -42,10 +52,12 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
-                        android:text="Hola"
+                        android:text="----"
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <Button
+                        android:background="#374426"
+                        android:textColor="#FFF"
                         android:id="@+id/manufacturer_increment"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -65,15 +77,21 @@
                     android:id="@+id/manufacturer"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
                     android:text="Model:"
+                    android:textStyle="bold"
                     android:textSize="30sp" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" >
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" >
 
                     <Button
+                        android:background="#374426"
+                        android:textColor="#FFF"
                         android:id="@+id/model_decrement"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -86,10 +104,12 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
-                        android:text="Large Text"
+                        android:text="----"
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <Button
+                        android:background="#374426"
+                        android:textColor="#FFF"
                         android:id="@+id/model_increment"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -100,31 +120,98 @@
                 </RelativeLayout>
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Large Text"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
-
-            <EditText
-                android:id="@+id/editText1"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="number" >
+                android:orientation="vertical" >
 
-                <requestFocus />
-            </EditText>
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/cm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Estimated Usage Hrs/Day:"
+                    android:textSize="25sp" />
 
-            <Button
-                android:id="@+id/button1"
-                android:layout_width="wrap_content"
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" >
+
+                    <Button
+                        android:id="@+id/Button02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#374426"
+                        android:onClick="decrementHours"
+                        android:text="-"
+                        android:textColor="#FFF" />
+
+                    <TextView
+                        android:id="@+id/hours"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <Button
+                        android:id="@+id/Button01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:background="#374426"
+                        android:onClick="incrementHours"
+                        android:text="+"
+                        android:textColor="#FFF" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:onClick="okProductButtonClick"
-                android:text="OK" />
+                android:orientation="vertical" >
+
+                <TextView
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Energy Cost kW/h:"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/cost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
         </LinearLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:background="#374426"
+            android:onClick="okProductButtonClick"
+            android:text="OK"
+            android:textColor="#FFF" />
 
     </RelativeLayout>
 
