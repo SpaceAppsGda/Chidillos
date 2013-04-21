@@ -16,33 +16,438 @@
             android:orientation="vertical" >
 
             <RelativeLayout
+                android:onClick="categorySelection"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content" 
+                android:tag="23"
+                >
 
                 <TextView
+                    android:text="Blu-Ray Player"
                     android:id="@+id/BluRay"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/imageView1"
                     android:layout_centerVertical="true"
-                    android:text="Blu-Ray"
+                    android:layout_marginLeft="15dp"
                     android:textSize="22sp"
                     android:textColor="#FFFFFF"
                     android:textStyle="bold" />
 
                 <ImageView
+                    android:src="@drawable/bluray"
                     android:id="@+id/imageView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/blueray" />
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
 
             </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="13"
+                >
+
+                <TextView
+                    android:text="PC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/computadoras"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="22"
+                >
+
+                <TextView
+                    android:text="DVR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/digitaltvrecorder"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="12"
+                >
+
+                <TextView
+                    android:text="Game Consoles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/game"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="18"
+                >
+
+                <TextView
+                    android:text="Media Player"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/mediaplayers"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="20"
+                >
+
+                <TextView
+                    android:text="Monitor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/monitor"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="16"
+                >
+
+                <TextView
+                    android:text="NAS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/nas"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="19"
+                >
+
+                <TextView
+                    android:text="Printer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/impresoras"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="24"
+                >
+
+                <TextView
+                    android:text="Stereo Amplifier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/amplifier"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="25"
+                >
+
+                <TextView
+                    android:text="Switches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/switch_"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="11"
+                >
+
+                <TextView
+                    android:text="WiFi Router"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/wifi"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="15"
+                >
+
+                <TextView
+                    android:text="CRT TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/tele"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="6"
+                >
+
+                <TextView
+                    android:text="LCD TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/tele"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="8"
+                >
+
+                <TextView
+                    android:text="LED TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/tele"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:onClick="categorySelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:tag="7"
+                >
+
+                <TextView
+                    android:text="Plasma TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView1"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dp"
+                    android:textSize="22sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:src="@drawable/tele"
+                    android:id="@+id/imageView1"
+                    android:layout_width="52dp"
+                    android:layout_height="52dp"
+                    android:adjustViewBounds="true"
+                     />
+
+            </RelativeLayout>
+            
+            
+            
+            
+            
+            
             
         </LinearLayout>
     </ScrollView>
 
     <RelativeLayout
-        android:layout_width="fill_parent"
+        android:id="@+id/dynamicLayout"
+        android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:background="@android:color/white" >
 
@@ -50,10 +455,10 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:text="Swype to the right to show categories"
             android:textSize="25sp" />
+
     </RelativeLayout>
 
 </com.agimind.widget.SlideHolder>
