@@ -21,8 +21,19 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int blueray=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int amplifier=0x7f020000;
+        public static final int bluray=0x7f020001;
+        public static final int computadoras=0x7f020002;
+        public static final int digitaltvrecorder=0x7f020003;
+        public static final int game=0x7f020004;
+        public static final int ic_launcher=0x7f020005;
+        public static final int impresoras=0x7f020006;
+        public static final int mediaplayers=0x7f020007;
+        public static final int monitor=0x7f020008;
+        public static final int nas=0x7f020009;
+        public static final int switch_=0x7f02000a;
+        public static final int tele=0x7f02000b;
+        public static final int wifi=0x7f02000c;
     }
     public static final class id {
         public static final int BluRay=0x7f080001;
