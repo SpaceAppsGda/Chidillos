@@ -588,7 +588,7 @@ public class SlideHolder extends FrameLayout {
 		}
 	};
 	
-	private void completeClosing() {
+	public void completeClosing() {
 		mOffset = 0;
 		requestLayout();
 		
